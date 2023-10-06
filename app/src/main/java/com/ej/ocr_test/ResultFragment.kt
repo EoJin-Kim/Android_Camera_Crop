@@ -1,4 +1,4 @@
-package com.ej.defaultcamera_gallary_test
+package com.ej.ocr_test
 
 import android.os.Bundle
 import android.util.Log
@@ -8,8 +8,7 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
-import com.ej.defaultcamera_gallary_test.databinding.FragmentCropBinding
-import com.ej.defaultcamera_gallary_test.databinding.FragmentResultBinding
+import com.ej.ocr_test.databinding.FragmentResultBinding
 import com.google.mlkit.vision.common.InputImage
 import com.google.mlkit.vision.text.TextRecognition
 import com.google.mlkit.vision.text.korean.KoreanTextRecognizerOptions

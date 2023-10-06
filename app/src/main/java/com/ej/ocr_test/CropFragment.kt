@@ -1,4 +1,4 @@
-package com.ej.defaultcamera_gallary_test
+package com.ej.ocr_test
 
 import android.graphics.Bitmap
 import android.os.Bundle
@@ -9,7 +9,7 @@ import androidx.annotation.IdRes
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
-import com.ej.defaultcamera_gallary_test.databinding.FragmentCropBinding
+import com.ej.ocr_test.databinding.FragmentCropBinding
 import com.theartofdev.edmodo.cropper.CropImageView.Guidelines
 
 

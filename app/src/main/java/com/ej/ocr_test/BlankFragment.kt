@@ -1,11 +1,10 @@
-package com.ej.defaultcamera_gallary_test
+package com.ej.ocr_test
 
 import android.Manifest
 import android.content.pm.PackageManager
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.graphics.Matrix
-import android.media.Image
 import android.os.Build
 import android.os.Bundle
 import android.util.Log
@@ -22,7 +21,7 @@ import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.activityViewModels
-import com.ej.defaultcamera_gallary_test.databinding.FragmentBlankBinding
+import com.ej.ocr_test.databinding.FragmentBlankBinding
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
 

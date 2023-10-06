@@ -1,4 +1,4 @@
-package com.ej.defaultcamera_gallary_test
+package com.ej.ocr_test
 
 import android.graphics.Bitmap
 import androidx.lifecycle.ViewModel
