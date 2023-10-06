@@ -38,7 +38,9 @@ class ResultFragment : Fragment() {
         val inputImage = InputImage.fromBitmap(viewModel.cropImage!!, 0)
         recognizer.process(inputImage)
             .addOnSuccessListener {
-
+                for (textBlock in it.textBlocks) {
+                    textBlock.cornerPoints
+                }
                 val strList = it.text.split("\n")
                 if (strList.size < 3) {
                     return@addOnSuccessListener
